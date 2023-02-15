@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="EN">
+    <head>
+        <title>lab 1 bai 4</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style4.css">
+    </head>
+    <body>
+        <h1 id = "header">Header</h1>
+        <div id = "menu">
+            <a href="#">Menu 1</a>
+            <a href="#">Menu 2</a>
+            <a href="#">Menu 3</a>
+            <a href="#">Menu 4</a>
+            <a href="#">Menu 5</a>
+        </div>
+        <div id = "container">
+            <div id = left>
+                <div id = "link1">
+                    <ul>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                        <li><a href="#">Link 4</a></li>
+                        <li><a href="#">Link 5</a></li>
+                    </ul>
+                </div>
+                <div id = "link2">
+                    <ul>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                        <li><a href="#">Link 4</a></li>
+                        <li><a href="#">Link 5</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id = "right">
+                <p>
+                    Start Centre Content goes here 2 column layout - any column can be the longest. Footer will stay at bottom of window unless content is greater then it stays at bottom of document. Only tested on PC (IE5, 5.5 , 6, Mozilla 1.2 , Firebird 0.6.1, Opera7,Netscape 6.2). Opera 6 doesn't like the footer but it's usable.I expect mac and other browsers will fall over. (*Update* Mac Firebird and Mac Netscape 6 & 7 (OS9) look perfect in all cases. Mac IE 5.1.7 & IE5.2.3 and Safari1.1.1 don't like the footer and render it at bottom of the longest column. However the columns works fine ane the effect is still usable. Thanks to a number of people for checking this out for me as I don't have a mac to test on.
+
+                    The left column colours are the background showing through. There is nothing special about this demo as similar techniques have been used before, however they are not usually integrated into one example. The secret to this demo is the left column which is floated negatively from the centre container. If you float them completely in the gaps at the side then they don't clear the footer. However if you leave them overlapping the centre content by 1 pixel then the footer is pushed down as required. The difference can be made up with padding etc.
+                </p>
+
+                <div id ="right-container">
+                    <div id = "sub-left">
+                        <p>
+                            Start Centre Content goes here 2 column layout - any column can be the longest
+                        </p>
+                    </div>
+                    <div id = "sub-right">
+                        <p>
+                            The left column colours are the background showing through
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id = "footer">
+            <h2>Footer</h2>
+        </div>
+    </body>
+</html> 

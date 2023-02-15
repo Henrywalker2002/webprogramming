@@ -1,0 +1,86 @@
+body { 
+    width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+#header { 
+    background-color: gray;
+    height: 50px;
+    margin: 0;
+}
+
+#menu a:nth-child(1) {
+    margin-left: 30px;
+}
+
+#menu a {
+    color: #fff;
+    margin: 0 10px 0 10px;
+}
+
+#menu {
+    background-color: blue;
+    height: 50px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 10000px;
+    margin: 0;
+}
+
+#container { 
+    display: grid;
+    grid-template-columns: 250px auto; 
+    column-gap: 0px;
+    row-gap: 0px;
+}
+
+#left ul {
+    margin: 0;
+}
+
+#link1 { 
+    background-color: yellow;
+    height: 150px;
+    margin: 0;
+}
+
+#link2 { 
+    background-color: gray;
+    height: 150px;
+    margin: 0;
+}
+
+#right {
+    text-align: justify;
+}
+
+#right p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#right-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 128px;
+}
+
+#sub-left {
+    background-color: green;
+}
+
+#sub-right {
+    background-color: red;
+}
+
+#footer {
+    text-align: center;
+    background-color: blue;
+    margin: 0;
+    height: 50px;
+}
+
+#footer h2 {
+    margin: 0;
+}
+

@@ -1,0 +1,73 @@
+h1 {
+    color: brown;
+}
+
+#about {
+    color: red;
+    text-shadow: 5px 5px 1px blue;
+}
+
+p:first-letter {
+    display:block;
+    margin: 5px 0 0 5px;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-important2 {
+    font-style: italic;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.text-important {
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+ul li {
+    margin: 5px 0 5px 0;
+    font-size: 18px;
+}
+
+ul li ul li:nth-child(odd){
+    color: red;
+}
+
+ul li ul li:nth-child(even){
+    color: blue;
+}
+
+li a {
+    color:inherit
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 10px;
+}
+
+tr td {
+    padding: 5px 5px 5px 5px;
+    border: 3px solid gray;
+}
+
+#contact {
+    margin-top: 20px;
+}
+
+
+#first {
+    font-weight: bold;
+    color: rgb(60, 54, 142) !important;
+    text-shadow: 2px 2px 5px #000;
+    text-decoration: none;
+}
+
+#contact a {
+    color: blue;
+}
+
+

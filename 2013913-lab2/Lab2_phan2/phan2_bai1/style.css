@@ -1,0 +1,12 @@
+.main {
+    border-radius: 15px;
+}
+
+table#myTable td {
+    border: 2px solid DodgerBlue;
+    color: #757589;
+}
+
+#myTable {
+    border-radius: 5px;
+}

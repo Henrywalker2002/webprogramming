@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+	<title>HTML Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<button type="submit" onclick="createTable()">Create Table</button>
+	<button type="submit" onclick="addRow()">Add Row</button>
+	<button type="submit" onclick="addColumn()">Add Column</button>
+	<input type="number" id="deleteRow" placeholder="Enter row index to delete">
+	<button type="submit" onclick="deleteRow()">Delete Row</button>
+	<input type="number" id="deleteColumn" placeholder="Enter column index to delete">
+	<button type="submit" onclick="deleteColumn()">Delete Column</button>
+	<button type="submit" onclick="deleteTable()">Delete Table</button>
+	<br><br>
+	<div id="tableContainer"></div>
+    <script src="script.js"></script>
+</body>
+</html>

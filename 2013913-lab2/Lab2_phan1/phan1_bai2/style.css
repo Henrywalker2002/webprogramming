@@ -1,0 +1,40 @@
+.container-md {
+ border: 1px solid black;
+}
+
+.topandbot {
+    height: 80px;
+}
+
+#mainright {
+    width: 160px;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainleft {
+    border: 1px solid black;
+}
+
+#main {
+    border: 1px solid black;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: darkgrey;
+}
+
+.text {
+    padding: 10px;
+}
+
+.text {
+    border: 1px solid black;
+}

@@ -1,0 +1,11 @@
+#myCal {
+    border: 4px solid DodgerBlue;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.inputnum {
+    border: 1px solid DodgerBlue;
+    border-radius: 5px;
+    font-size: x-large;
+}

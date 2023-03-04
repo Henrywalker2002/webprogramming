@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="demo.js"></script>
+</head>
+<body>
+    <div class="main container-fuild container-md bg-gradient border border-primary border-4 mt-4 p-4">
+        <h1 class="d-flex justify-content-around text-primary">TABLE</h1>
+            <div class="w-auto">
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary m-2" onclick="create_table()">Create Table 2x2</button>
+                    <button type="button" class="btn btn-primary m-2"  onclick="add_row()">Add Row</button>
+                    <button type="button" class="btn btn-primary m-2" onclick="add_col()">Add Col</button>
+                    <button type="button" class="btn btn-primary m-2"  onclick="delete_table()">Delete Table</button> 
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="row m-2" role="group">
+                        <input type="text"  class="btn btn-outline-primary" onfocus="this.value=''" id="del_row" placeholder="Row index">
+                        <button type="button" onclick="delete_row()"  class="btn btn-primary">Delete Row</button>
+                    </div>
+                    <div class="row m-2" role="group">
+                        <input type="text"  class="btn btn-outline-primary" onfocus="this.value=''" id="del_col" placeholder="Col index">
+                        <button type="button" onclick="delete_col()"  class="btn btn-primary">Delete Col</button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center"><table id="myTable" class=""></table></div>
+            
+    </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Cookie Management</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://code.jquery.com/jquery-3.6.4.slim.js" integrity="sha256-dWvV84T6BhzO4vG6gWhsWVKVoa4lVmLnpBOZh/CAHU4=" crossorigin="anonymous"></script>
+	<style>
+		.container {
+			margin: 20px;
+		}
+
+		h2 {
+			margin-top: 0;
+		}
+
+		label {
+			display: block;
+			margin-top: 10px;
+		}
+
+		table input {
+			width: 100%;
+			border: none;
+		}
+
+		button {
+			background-color: gray; /* Background color */
+			border: none; /* Remove borders */
+			color: white; /* Text color */
+			padding: 2px 12px; /* Padding */
+			text-align: center; /* Center text */
+			text-decoration: none; /* Remove underline */
+			display: inline-block; /* Make the element a block element to apply padding */
+			font-size: 16px; /* Font size */
+			margin: 4px 2px; /* Add margin */
+			cursor: pointer; /* Add cursor on hover */
+			border-radius: 4px; /* Rounded corners */
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); /* Add shadow effect */
+		}
+
+		button:hover {
+			background-color: #3e8e41; /* Darker background color on hover */
+		}
+
+		#cookie-list {
+			margin-top: 20px;
+		}
+
+		table {
+			display: table;
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		tr {
+			display: table-row;
+			}
+
+		td {
+			display: table-cell;
+			border: 1px solid black;
+			padding: 10px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h2>Cookie Management</h2>
+
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name">
+
+		<label for="value">Value:</label>
+		<input type="text" id="value" name="value">
+
+		<label for="days">Days:</label>
+		<input type="number" id="days" name="days">
+
+		<button onclick="addCookie()">Set Cookie</button>
+
+		<table id = "table">
+			<tr>
+				<th> Cookie name </th>
+				<th> Cookie value</th>
+				<th> Action</th>
+			</tr>
+
+		</table>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
